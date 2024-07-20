@@ -1,0 +1,92 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex task</title>
+    <style>
+      .whole{
+        display: flex;
+        flex-wrap: wrap;
+        width:100%;
+    
+      }
+        .first{
+          display: flex;
+            flex-wrap: wrap;
+            background-color: tomato;
+            height: 100px;
+            width: 100%;
+            border-radius: 10px;
+            /* margin-bottom: 15px; */
+            text-align: center;
+          
+          }
+          .full{
+            display:flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+            width: 100%;
+            justify-content: space-between;
+            margin-top: 10px;
+            margin-bottom: 10px;
+            /* align-items: center; */
+          }
+          .side{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            background-color: yellow;
+            border-radius: 10px;           
+             height: 250px;
+            width: 15%;
+            /* margin-right:15px; */
+            text-align: center;
+          }
+    
+          .one{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            background-color: rgb(10, 148, 240);
+            height: 250px;
+            width: 60%;
+            border-radius: 10px;
+            text-align: center;
+            /* margin-right: 15px; */
+          }
+          .two{
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            background-color: palevioletred;
+            height: 250px;
+            width: 15%;
+            border-radius: 10px;
+            /* margin-right: 15px; */
+            text-align: center;
+          }
+          #last{
+            display: flex;
+            flex-wrap: wrap;
+            background-color: green;
+            height: 100px;
+            width: 100%;
+            border-radius: 10px;
+            /* margin-top: 15px; */
+          }
+    
+    </style>
+</head>
+<body>
+    <div class="whole">
+        <div class="first">Header</div>
+        <div class="full">
+          <div class="side">Aside1</div>
+          <div class="one">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quaerat voluptates quae odio, dicta laborum maiores itaque deserunt eius sequi nesciunt impedit, cupiditate ducimus porro. Dolor officiis quasi tenetur quisquam fugiat?</div>
+          <div class="two"> Aside2</div>
+        </div>
+        <div id="last">Footer</div>
+  </div>
+</body>
+</html>
